@@ -20,7 +20,7 @@ header, footer {
     justify-content: center;
     border-radius: 10px;
     border: 1px solid rgb(161, 161, 161);
-    background-color: #4c9e00;
+    background-color: #2F6100;
     width: 80%;
     box-shadow: 5px 5px 5px #999;
 }
@@ -54,7 +54,7 @@ h2 {
 }
 
 .updated-time, #currentdate {
-    color: yellow;
+    color: #FFFF80;
 }
 
 
