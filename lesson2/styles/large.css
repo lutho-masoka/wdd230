@@ -1,0 +1,12 @@
+@media (min-width: 64em) {
+        main {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 10px;
+      }
+
+      article:nth-child(3) {
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
