@@ -1,0 +1,53 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main, header, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    text-align: center;
+}
+
+nav div {
+    flex: 1 1 auto;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: tomato;
+    color: navy;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    color: navy;
+    font-weight: 600;
+}
+
+main {
+    margin-bottom: 15%;
+}
