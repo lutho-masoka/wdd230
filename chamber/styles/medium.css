@@ -14,7 +14,7 @@
     flex-direction: column;
   }
 
-  #hero-site-name {
+  #hero-site-name, .banner-img {
     grid-row: 1 / 2;
   }
 

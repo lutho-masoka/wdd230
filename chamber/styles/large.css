@@ -11,6 +11,7 @@
     padding: .5rem 1rem;
   }
 
+
   .navigation {
     display: flex;
     flex-direction: row;
@@ -31,7 +32,7 @@
 
   section {
     margin: 0;
-    height: 7rem;
+    height: auto;
   }
 
   #hero-site-name, #news-release {
@@ -40,7 +41,7 @@
 
   #hero-site-name {
     grid-row: 1 / 4;
-    height: 66%;
+    height: 72%;
   }
 
 
