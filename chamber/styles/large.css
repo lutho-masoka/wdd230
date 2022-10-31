@@ -1,11 +1,17 @@
 @media (min-width: 64em) {
-  .content {
-      display: grid;
-      grid-template-columns: 1fr 2fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      grid-gap: .5rem;
-      margin: 0 1rem;
-    }
+.content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: .5rem;
+    margin: 0 1rem;
+  }
+
+  .fig-layout {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+}
 
   nav {
     padding: .5rem 1rem;

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bay Chamber of Businesses</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Assignment website for Lutho Masoka in WDD 230:
+         Web Frontend Development at Brigham Young University - Idaho" />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+         <link rel="stylesheet" href="styles/base.css" />
+         <link rel="stylesheet" href="styles/medium.css" />
+         <link rel="stylesheet" href="styles/large.css" />
+         <link rel="shortcut icon" href="bcob.ico">
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+         <script defer src="scripts/main.js"></script>
+         <script defer src="scripts/lazy-loading.js"></script>
+         <script defer src="scripts/localStorageVisits.js"></script>
+        </head>
+    
+    <body>
+        <div class="banner-msg"><p></p></div>
+        <header>
+            <div class="logo-img">
+                <img src="images/bay-chamber-of-businesses-logos_white.webp" alt="business logo"/>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" class="ham"><span>&#9776; Menu</span><span>X Menu</span></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <a href="https://www.linkedin.com/">
+                            <img src="images/linkedin-icon.png" alt="LinkedIn logo"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/">
+                            <img src="images/instagram-icon.png" alt="Instagram logo"/>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <p>
+                <span id="dateTime"></span>
+            </p>
+        </header>
+        <main>
+            <div class="fig-layout">
+                <section class="figures">
+                    <figure>
+                        <img src='images/Placeholder.png'
+                            data-src='images/strand.jpg'
+                            alt='beach-front'
+                        />
+                        <figcaption>Fig.1 -Summerstrand beach-front.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src='https://dummyimage.com/600x400/969496/101012&text=Placeholder'
+                            data-src='images/baypic.jpg'
+                            alt='town-hall'
+                        />
+                        <figcaption>Fig.2 - Town Hall.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src='https://dummyimage.com/600x400/969496/101012&text=Placeholder'
+                            data-src='images/nelson-mandela-bay-air-11246037.jpg'
+                            alt='city stadium'
+                        />
+                        <figcaption>Fig.3 - Nelson Mandela Bay Stadium.</figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <h1>NMB Demographics</h1>
+                    <h2>Population</h2>
+                    <p>1,334,883</p>
+                    <h2>Landsize</h2>
+                    <p>1,957km2</p>
+                    <h2>Women</h2>
+                    <p>51.5%</p>
+                    <h2>Men</h2>
+                    <p>45.5%</p>
+                    <h3><span id="visits"></span></h3>
+                    <hr/>
+                    <p>
+                        The Nelson Mandela Bay Municipality is named after South Africa's former President, humanitarian and icon to the world, Nelson Rolihlaha Mandela, as Madiba was born and spent his formative years in the Eastern Province. 
+                        The City is home to the Chief Dawid Stuurman (previously Port Elizabeth) International Airport, the only international air access point in the Eastern Cape Province.  Engagements between the Nelson Mandela Bay Municipality, Airports Company South Africa, Nelson Mandela Bay Tourism and local business saw the development of an Airlift Project, aimed at deliberately growing air traffic in the region.
+                        The City's maritime entry point showcases its monumental developmental aspirations and capabilities, boasting the most modern deep-water port in the Southern Hemisphere, the Port of Ngqura.
+                        Nelson Mandela Bay is the hub of the automotive industry on the African continent, with many major international vehicle and component manufacturers based in the city. It is a preferred region for the manufacturing of pharmaceuticals, flour, meat, frozen veggies, soft drinks, chocolates, cheese, yoghurt, ice-cream, paper and leather products.
+                    </p>
+                    <p>
+                        Nelson Mandela Bay is located on the southern coast of South Africa, on the shores of Algoa Bay, midway between Cape Town and Durban and 1058 km from Johannesburg.
+                        The Nelson Mandela Bay Municipality is one of two metropolitan municipalities in the Eastern Cape Province. It incorporates Gqeberha (was Port Elizabeth), Kariega (was Uitenhage) and Despatch, with their surrounding agricultural areas, and occupies an area of 1959,02 km². Nelson Mandela Bay serves as a centre for both local and international beach sporting and offers exciting outdoor activities. The City is noted for the genuine warm hospitality of its residents, and has for many decades been known as the Friendly City among visitors and holidaymakers.
+                    </p>
+                </section>
+                <section class="figures">
+                    <figure>
+                        <img src='https://dummyimage.com/600x400/969496/101012&text=Placeholder'
+                            data-src='images/libhongobus.jpg'
+                            alt='algoa bus'
+                        />
+                        <figcaption>Fig.4 - Algoa bus.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src='https://dummyimage.com/600x400/969496/101012&text=Placeholder'
+                            data-src='images/57065699-uitenhage-south-africa-march-7-2016-welcome-sign-at-the-entrance-of-uitenhage-an-industrial-town-in-.jpg'
+                            alt='Uitenhage'
+                        />
+                        <figcaption>Fig.5 - Uitenhage.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src='https://dummyimage.com/600x400/969496/101012&text=Placeholder'
+                            data-src='images/nmu.jpg'
+                            alt='University'
+                        />
+                        <figcaption>Fig.6 - NMU.</figcaption>
+                    </figure>
+                </section>
+            </div>
+
+        </main>
+        <footer>
+            <div class="upper-footer">
+                <div class="logo-img">
+                    <img src="images/bay-chamber-of-businesses-logos_white.webp" alt="chamber logo"/>
+                    <p class="address">20 King Edward Drive <span>PE, South Africa 888</span></p>
+                </div>
+                <div>
+                    <p class="contact-info">Contact 
+                        <span>info@bcob.com</span>
+                        <span>(027) 555-888</span>
+                    </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13500789.809101062!2d18.251486369681842!3d-34.297218343615434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c34a689d9ee1251%3A0xe85d630c1fa4e8a0!2sSouth%20Africa!5e0!3m2!1sen!2sus!4v1657264666395!5m2!1sen!2sus" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <hr>
+            <p class="lower-footer">
+                <span class="copywrite">
+                    &copy; <span id="year"></span>
+                </span>
+                <span>
+                   . Bay Chamber of Businesses | <span>Lutho Masoka</span> | <span>WDD 230 Project</span> | <span>Last Modification: <span id="currentdate"></span></span>
+                </span>
+            </p>
+        </footer>
+    </body>
+</html>

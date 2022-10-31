@@ -1,0 +1,27 @@
+body {
+    margin: 0.5rem auto;
+  }
+  
+  h1 {
+    color: #0c5e00;
+  }
+  
+  picture img {
+    width: 300px;
+    height: 400px;
+  }
+  
+  picture {
+    display: block;
+    background-color: #bed;
+    padding: 0.5rem;
+  }
+
+  picture img[data-src] {
+    filter: blur(0.2em);
+}
+  
+  picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }

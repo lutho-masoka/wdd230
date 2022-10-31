@@ -27,7 +27,7 @@
                 <ul class="navigation">
                     <li><a href="#" class="ham"><span>&#9776; Menu</span><span>X Menu</span></a></li>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Discover</a></li>
+                    <li><a href="discover.html">Discover</a></li>
                     <li><a href="#">Directory</a></li>
                     <li><a href="#">Join</a></li>
                     <li><a href="#">Contact</a></li>
@@ -53,10 +53,13 @@
                     <h1>Welcome to Bay Chamber of Businesses</h1>
                     <!-- <img src="images/pexels-christina-morillo-1181403.jpg" alt="banner image" /> -->
                     <picture>
-                        <source media="(max-width: 32.99em)" srcset="images/wdd230-org_small.jpg">
+                        <source srcset="images/wdd230-org_large.jpg" media="(min-width: 64em)">
+                        <source srcset="images/wdd230-org_medium.jpg" media="(min-width: 32em)">
+                        <img src="images/wdd230-org_small.jpg" alt="Mntevideo-image">
+                        <!-- <source media="(min-width: 64em)" srcset="images/wdd230-org_large">
                         <source media="(max-width: 63.99em)" srcset="images/wdd230-org_medium.jpg">
-                        <source media="(min-width: 64em)" srcset="images/wdd230-org_large.jpg">
-                        <img src="images/wdd230-org.jpg" alt="hero-image">
+                        <source media="(min-width: 64em)" srcset="images/wdd230-org_large.jpg"> -->
+                        <!-- <img src="images/wdd230-org_small.jpg" alt="hero-image"> -->
                     </picture>
                 </section>
                 <section id="news-release">
@@ -123,7 +126,7 @@
                     <p id="description"></p>
                     <hr>
                     <div>
-                        <p>Wind Speed: <span id="speed">2.5</span>km/h</p>
+                        <p>Wind Speed: <span id="speed">15</span>km/h</p>
                         <p>Wind Chill: <span id="chill"></span></p>
                     </div>
                 </section>
