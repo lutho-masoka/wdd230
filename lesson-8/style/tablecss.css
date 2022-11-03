@@ -1,0 +1,52 @@
+:root {
+	--theme: rgb(127, 186, 194);
+    --dark: hsla(0,0%,10%,1);
+	--col-head: rgb(98, 140, 165);
+	--border: rgb(191, 190, 195);
+	--shadow: hsl(0,0%,50%);
+	--zebra-odd: #D8E5B2;
+	--zebra-even: rgb(231, 240, 237);
+}
+ 
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 30px var(--shadow);
+	border-collapse: collapse;
+}
+
+thead tr:first-child {
+    color: var(--dark);
+    background-color: var(--theme);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+thead tr:nth-child(2) {
+    background-color: var(--col-head);
+    color: white;
+}
+
+th, td {
+	padding: 7px 15px;
+	border:  solid var(--border);
+}
+
+td {text-align: center;}
+
+tbody tr {background-color: var(--zebra-even);}
+
+tbody tr:nth-child(even) {background-color: var(--zebra-odd);}
+
+#green {background-color: rgb(98, 140, 165);}
+
+tfoot {background-color: var(--theme);}
+
+p {
+	text-align: center;
+    color: var(--theme);
+}
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
