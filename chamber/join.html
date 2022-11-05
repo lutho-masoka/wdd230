@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bay Chamber of Businesses</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Assignment website for Lutho Masoka in WDD 230:
+         Web Frontend Development at Brigham Young University - Idaho" />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+         <link rel="stylesheet" href="css/base.css" />
+         <link rel="stylesheet" href="css/medium.css" />
+         <link rel="stylesheet" href="css/large.css" />
+         <link rel="shortcut icon" href="bcob.ico">
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+         <script defer src="js/main.js"></script>
+         <script defer src="js/membership.js"></script>
+         <script defer src="js/displayDateTime.js"></script>
+        </head>
+    
+    <body>
+        <div class="banner-msg"><p></p></div>
+        <header>
+            <div class="logo-img">
+                <img src="images/bay-chamber-of-businesses-logos_white.webp" alt="business logo"/>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" class="ham"><span>&#9776; Menu</span><span>X Menu</span></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <a href="https://www.linkedin.com/">
+                            <img src="images/linkedin-icon.png" alt="LinkedIn logo"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/">
+                            <img src="images/instagram-icon.png" alt="Instagram logo"/>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <p>
+              <span id="dateTime"></span>
+          </p>
+        </header>
+        <main>
+            <form action="thankyou.html" method="get">
+                <ul>
+                  <li>
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first name" required>
+                  </li>
+                  <li>
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last name" required>
+                  </li>
+                  <li>
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title field" pattern="[A-za-z_-]{7,}">
+                  </li>
+                  <li>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="user email" placeholder="johndoe@gmail.com" required>
+                  </li>
+                  <li>
+                    <label for="cellphone">Cell Phone Number:</label>
+                    <input type="tel" id="cellphone" name="user cellphone" required>
+                  </li>
+                  <li>
+                    <label for="business">Business Name / Title:</label>
+                    <input type="text" id="business" name="business name">
+                  </li>
+                  <li>
+                    <label for="membership">Membership Choice:</label>
+                    <select id="membership" name="membership_option">
+                      <optgroup label="Membership Option">
+                        <option value="gold_membership">Gold Membership ZAR300/month</option>
+                        <option value="silver_membership">Silver Membership ZAR200/month</option>
+                        <option value="bronze_membership">Bronze Membership ZAR150/month</option>
+                        <option value="np_membership">NP Membership is for non profit organizations and there is no fee</option>
+                      </optgroup>
+                    </select>
+                    <ul class="benefits"></ul>
+                  </li>
+                  <li>
+                    <label for="description">Describe Your Business:</label>
+                    <textarea id="description" name="business description"></textarea>
+                  </li>
+                  <li>
+                      <input type="hidden" id="time" name="time" >
+                  </li>
+                  <li>
+                    <button type="submit" id="submit-form">
+                      Join
+                    </button>
+                  </li>
+                </ul>
+                </form>
+        </main>
+        <footer>
+            <div class="upper-footer">
+                <div class="logo-img">
+                    <img src="images/bay-chamber-of-businesses-logos_white.webp" alt="chamber logo"/>
+                    <p class="address">20 King Edward Drive <span>PE, South Africa 888</span></p>
+                </div>
+                <div>
+                    <p class="contact-info">Contact 
+                        <span>info@bcob.com</span>
+                        <span>(027) 555-888</span>
+                    </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13500789.809101062!2d18.251486369681842!3d-34.297218343615434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c34a689d9ee1251%3A0xe85d630c1fa4e8a0!2sSouth%20Africa!5e0!3m2!1sen!2sus!4v1657264666395!5m2!1sen!2sus" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <hr>
+            <p class="lower-footer">
+                <span class="copywrite">
+                    &copy; <span id="year"></span>
+                </span>
+                <span>
+                   . Bay Chamber of Businesses | <span>Lutho Masoka</span> | <span>WDD 230 Project</span> | <span>Last Modification: <span id="currentdate"></span></span>
+                </span>
+            </p>
+        </footer>
+    </body>
+</html>
