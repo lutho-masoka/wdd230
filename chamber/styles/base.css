@@ -349,7 +349,7 @@ input:focus, textarea:focus {
 
 textarea {
   vertical-align: top;
-  height: 9em;
+  height: 6em;
 }
 
 #submit-form {
