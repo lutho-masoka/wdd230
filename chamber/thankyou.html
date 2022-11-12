@@ -15,7 +15,7 @@
          <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
          <script defer src="scripts/main.js"></script>
          <script defer src="scripts/membership.js"></script>
-         <script defer src="scripts/displayDateTime.js"></script>
+         <script defer src="scripts/displaydatetime.js"></script>
         </head>
     
     <body>
@@ -45,63 +45,14 @@
                 </ul>
             </nav>
             <p>
-              <span id="dateTime"></span>
-          </p>
+                <span id="dateTime"></span>
+            </p>
         </header>
         <main>
-            <form action="thankyou.html" method="get">
-                <ul>
-                  <h1>Welcome!</h1>
-                  <li>
-                    <label for="first_name">First Name:</label>
-                    <input type="text" id="first_name" name="first name" required>
-                  </li>
-                  <li>
-                    <label for="last_name">Last Name:</label>
-                    <input type="text" id="last_name" name="last name" required>
-                  </li>
-                  <li>
-                    <label for="title">Title:</label>
-                    <input type="text" id="title" name="title field" pattern="[A-za-z_-]{7,}">
-                  </li>
-                  <li>
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="user email" placeholder="johndoe@gmail.com" required>
-                  </li>
-                  <li>
-                    <label for="cellphone">Cell Phone Number:</label>
-                    <input type="tel" id="cellphone" name="user cellphone" required>
-                  </li>
-                  <li>
-                    <label for="business">Business Name / Title:</label>
-                    <input type="text" id="business" name="business name">
-                  </li>
-                  <li>
-                    <label for="membership">Membership Choice:</label>
-                    <select id="membership" name="membership_option">
-                      <optgroup label="Membership Option">
-                        <option value="gold_membership">Gold Membership ZAR300/month</option>
-                        <option value="silver_membership">Silver Membership ZAR200/month</option>
-                        <option value="bronze_membership">Bronze Membership ZAR150/month</option>
-                        <option value="np_membership">NP Membership is for non profit organizations and there is no fee</option>
-                      </optgroup>
-                    </select>
-                    <ul class="benefits"></ul>
-                  </li>
-                  <li>
-                    <label for="description">Describe Your Business:</label>
-                    <textarea id="description" name="business description"></textarea>
-                  </li>
-                  <li>
-                      <input type="hidden" id="time" name="time" >
-                  </li>
-                  <li>
-                    <button type="submit" id="submit-form">
-                      Join
-                    </button>
-                  </li>
-                </ul>
-                </form>
+            <div class="submission">
+                <h2>Thank You for Your Submission</h2>
+                <h3> We are reviewing your application and will get back to you shortly.  </h2>
+            </div>
         </main>
         <footer>
             <div class="upper-footer">
