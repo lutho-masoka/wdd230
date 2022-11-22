@@ -1,0 +1,51 @@
+* {
+    align-items: center;
+    background-color: #002A32;
+    text-align: center;
+
+}
+
+h1 {   
+  color: white;
+  text-shadow: 5px 5px 5px black;
+  overflow: hidden;
+  font-size: 30px;
+  margin-left: 5px;
+  font-family: 'EB Garamond', serif;
+}
+
+h1:hover {
+    transform: translateY(-10px);
+    transition: all 0.25s;
+    color: rosybrown;
+}
+
+h1, h2 {
+  color: white;
+  text-shadow: 5px 5px 5px black;
+  font-family: 'EB Garamond', serif;
+}
+
+p {
+  color: #e4e4e4;
+  font-size: 20px;
+  text-shadow: 2px 2px 8px #000000;
+  font-family: 'Quicksand', sans-serif; 
+}
+
+a {
+  margin-left: 40px;
+  color: aliceblue;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #000000;
+  font-size: larger;
+}
+
+img {
+    width: 25%;
+}
+
+figcaption {
+  color: aliceblue;
+  font-size: 2rem;
+}
