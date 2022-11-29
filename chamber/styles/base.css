@@ -195,7 +195,10 @@ picture img {width: 50%;}
   margin: auto;
 }
 
-.spotlight-img img {width: 100%; }
+.spotlight-img img {
+  margin-top: 1rem;
+  width: 100%; 
+}
 
 #spotlights p {
   margin: 0;
@@ -488,6 +491,31 @@ article {
     box-sizing: border-box;
     border: 1px solid #999;
   }
+}
+
+.spotlight-web {
+  margin: auto;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  text-align: center;
+}
+
+#join-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#feedback {
+  height: 30em;
+}
+
+#feedback textarea {
+  height: 5em;
+}
+
+article p {
+  margin-bottom: 1rem;
 }
 
 div.container h2 {

@@ -49,59 +49,54 @@
           </p>
         </header>
         <main>
-            <form action="thankyou.html" method="get">
-                <ul>
-                  <h1>Welcome!</h1>
-                  <li>
-                    <label for="first_name">First Name:</label>
-                    <input type="text" id="first_name" name="first name" required>
-                  </li>
-                  <li>
-                    <label for="last_name">Last Name:</label>
-                    <input type="text" id="last_name" name="last name" required>
-                  </li>
-                  <li>
-                    <label for="title">Title:</label>
-                    <input type="text" id="title" name="title field" pattern="[A-za-z_-]{7,}">
-                  </li>
-                  <li>
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="user email" placeholder="johndoe@gmail.com" required>
-                  </li>
-                  <li>
-                    <label for="cellphone">Cell Phone Number:</label>
-                    <input type="tel" id="cellphone" name="user cellphone" required>
-                  </li>
-                  <li>
-                    <label for="business">Business Name / Title:</label>
-                    <input type="text" id="business" name="business name">
-                  </li>
-                  <li>
-                    <label for="membership">Membership Choice:</label>
-                    <select id="membership" name="membership_option">
-                      <optgroup label="Membership Option">
-                        <option value="gold_membership">Gold Membership ZAR300/month</option>
-                        <option value="silver_membership">Silver Membership ZAR200/month</option>
-                        <option value="bronze_membership">Bronze Membership ZAR150/month</option>
-                        <option value="np_membership">NP Membership is for non profit organizations and there is no fee</option>
-                      </optgroup>
-                    </select>
-                    <ul class="benefits"></ul>
-                  </li>
-                  <li>
-                    <label for="description">Describe Your Business:</label>
-                    <textarea id="description" name="business description"></textarea>
-                  </li>
-                  <li>
-                      <input type="hidden" id="time" name="time" >
-                  </li>
-                  <li>
-                    <button type="submit" id="submit-form">
-                      Join
-                    </button>
-                  </li>
-                </ul>
+            <div class="banner-box">
+                <div class="banner-msg">
+                    <h1>
+                      Feel Free to Contact Us
+                    </h1>
+                </div>
+                <div class="banner-img">
+                    <img src="images/pexels-christina-morillo-1181403-min.jpg"
+                    alt="Banner-image" />
+                </div>
+            </div>
+            <article id="contact-block">
+                <h2>Contact Us</h2>
+                <h3>address</h3>
+                <p class="address">20 King Edward Drive <span>PE, South Africa 888</span></p>
+                <hr/>
+                <h3>Phone</h3>
+                <p>(027) 555-888</p>
+                <hr/>
+                <h3>Email</h3>
+                <p>info@bcob.com</p>
+            </article>
+            <div class="min-form">
+                <form id="feedback" action="/" method="get">
+                    <ul>
+                        <li>
+                            <label for="business">Business Name / Title:</label>
+                            <input type="text" id="business" name="business name" required>
+                        </li>
+                      <li>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="user email" placeholder="johndoe@gmail.com" required>
+                      </li>
+                      <li>
+                        <label for="feedback">Feedback:</label>
+                        <textarea id="feedback" name="user feedback"></textarea>
+                      </li>
+                      <li>
+                          <input type="hidden" id="time" name="time" >
+                      </li>
+                      <li>
+                        <button type="submit" id="submit-form">
+                          Submit
+                        </button>
+                      </li>
+                    </ul>
                 </form>
+            </div>
         </main>
         <footer>
             <div class="upper-footer">
